@@ -25,3 +25,41 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Used Escructure
+
+|-- modules
+
+    |-- module1
+        |-- [+] components
+        |-- module1.service.ts
+        |-- module1.module.ts
+        |-- module1.routes.ts
+
+    |-- module2 
+        |-- [+] components
+        |-- module2.service.ts
+        |-- module2.module.ts
+        |-- module2.routes.ts
+
+|-- shared
+        |-- [+] components
+        |-- [+] mocks
+        |-- [+] models
+        |-- [+] directives
+        |-- [+] pipes
+
+|-- core
+        |-- [+] authentication
+        |-- [+] footer
+        |-- [+] guards
+        |-- [+] http
+        |-- [+] interceptors
+        |-- [+] mocks
+        |-- [+] services
+        |-- [+] header
+
+|-- app.module.ts
+|-- app.component.ts
+
+by https://www.brunobrito.net.br/estruturando-components-angular/
